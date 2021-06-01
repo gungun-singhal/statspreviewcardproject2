@@ -81,6 +81,8 @@ img {
         display: flex;
         flex-direction: column-reverse;
         min-height: 100%;
+        margin-right; 2rem;
+        margin-left; 2rem;       
     }
     .wrapper{
         padding: 85px;
