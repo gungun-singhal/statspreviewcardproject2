@@ -82,6 +82,7 @@ img {
         min-height: 100%;
         margin-right: 2rem;
         margin-left: 2rem;
+        padding-top: 1rem;
     }
     .wrapper{
         padding: 80px;
