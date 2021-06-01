@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+main {
+    display: flex;
+    overflow: hidden;
+    max-width: 1000px;
+    border-radius: 7px;
+    background-color: hsl(244, 38%, 16%);   
+}
+body {
+    display: grid;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    place-content: center;
+    text-align: center;
+}
+.wrapper{
+    padding-top: 2.5rem;
+    padding-left: 3rem;
+    width: 50%;
+}
+.headings p {
+    font-weight: 700;
+    padding: 0px;
+    text-align: start;
+    font-family:"sans-serif " ;
+    color: hsl(0, 0%, 100%);
+    /* text-transform: uppercase; */
+    font-size: 30px;
+}
+.headings {
+    text-align: start;
+    display: flex;
+    /* justify-content: space-evenly; */
+    line-height: 3rem;
+    gap: 3rem;
+
+}
+div .heading1{
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    color: hsla(0, 0%, 100%, 0.6);   
+}
+h1 {
+    padding-bottom: 1.5rem;
+    text-align: start;
+    font-family: "Lexend Deca", sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding-right: 2.5rem;
+    
+}
+p {
+    padding-bottom: 4rem;
+    text-align: start;
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding-right: 2.5rem; 
+}
+.image{
+    background-color: hsl(277, 64%, 61%);
+    width: 50%;    
+}
+img {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%; 
+    
+}
+.different{
+    color: hsl(277, 64%, 61%);
+}
+
+@media only screen and (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: 100%;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .wrapper{
+        padding: 80px;
+        /* margin-left: 3rem; */
+    }
+    .headings{
+        display: inline-block;
+        padding-top: 4rem;
+        line-height: 4rem;
+        /* letter-spacing: 0; */
+        /* justify-content: center;
+        word-wrap: wrap; */
+    }
+    .image{
+        width: 100%;
+        /* margin-left: 3rem; */
+        /* margin-right: 5rem; */
+        /* margin-top: 1rem; */
+        /* margin-left: 10vw; */
+       
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        /* padding-left: 25px; */
+    }
+    h1 {
+        padding-right: 20px;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+    }   
+    p {
+        text-align: center;
+        padding: 0;
+    }
+}
